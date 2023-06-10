@@ -81,7 +81,7 @@ nav ul li a:hover {
     transform: rotateY(360deg);
   }
   to {
-    transform: rotateY(0deg);
+    transform: rotateX(0deg);
   }
 }
 
