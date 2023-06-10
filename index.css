@@ -71,6 +71,18 @@ nav ul li a:hover {
 .logo {
   width: 150px;
   height: 100px;
+  animation: rotation 5s infinite linear;
+
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotateY(360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
 }
 
 .content {
