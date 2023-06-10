@@ -52,7 +52,7 @@ nav ul li a {
 nav ul li a::after {
   content: "";
   position: absolute;
-  background-color: var(--mainColor);
+  background-color: var(--secondaryColor);
   height: 3px;
   width: 0;
   bottom: -10px;
@@ -246,8 +246,7 @@ fieldset {
   position: absolute;
   bottom: 50px;
   left: 50%px;
-  transform: translate(25%,0%);
-  
+  transform: translate(25%, 0%);
 }
 
 .submit {
