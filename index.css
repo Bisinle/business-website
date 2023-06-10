@@ -129,7 +129,7 @@ nav ul li a:hover {
   border-radius: 20px;
   font-size: 1rem;
   background-color: var(--mainColor);
-  color: black;
+  color: var(--secondaryColor);
   position: absolute;
   right: 7px;
   top: 6px;
