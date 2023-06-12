@@ -112,7 +112,7 @@ nav ul li a:hover {
   width: 80%;
   margin: 40px auto;
   font-size: 1rem;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .subscribe {
   width: 70%;
@@ -125,7 +125,7 @@ nav ul li a:hover {
   border-radius: 20px;
   width: 100%;
   font-size: 1.4rem;
-  padding-left: 10px;
+  padding-left: 15px;
   border: 2px solid var(--mainColor);
 }
 .input[type="Email"]:focus {
@@ -133,8 +133,7 @@ nav ul li a:hover {
 }
 .input::placeholder {
   font-size: 1.3rem;
-  padding-left: 5px;
-}
+s}
 .subscribe button {
   width: 100px;
   padding: 10px;
@@ -148,9 +147,11 @@ nav ul li a:hover {
   border: none;
   font-weight: 300;
   cursor: pointer;
+  transition: 0.5s ;
 }
 .subscribe button:hover {
   color: var(--secondaryColor);
+  transform: scale(0.9);
 }
 
 /* TEAM SECTION*/
