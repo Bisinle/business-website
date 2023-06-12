@@ -1,3 +1,11 @@
+//subscribe button
+const contentInput = document.querySelector(".input");
+const contentButton = document.querySelector(".subscribe button");
+contentButton.addEventListener("click", function (e) {
+  contentInput.value = ''
+  // console.log(contentInput.value);
+});
+
 const input = document.querySelector("#selectedService");
 const select = document.querySelector("#select");
 
@@ -14,4 +22,3 @@ submitResets.addEventListener("click", function (e) {
   }
 });
 
-console.log(allInputs);

@@ -111,12 +111,14 @@ nav ul li a:hover {
   color: var(--secondaryColor);
   width: 80%;
   margin: 40px auto;
-  font-size: 1.4rem;
+  font-size: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .subscribe {
   width: 70%;
   margin: 10px auto 10px auto;
   position: relative;
+  cursor: pointer;
 }
 .input {
   height: 50px;
@@ -145,6 +147,7 @@ nav ul li a:hover {
   top: 6px;
   border: none;
   font-weight: 300;
+  cursor: pointer;
 }
 .subscribe button:hover {
   color: var(--secondaryColor);
@@ -169,7 +172,7 @@ nav ul li a:hover {
 }
 
 .card {
-  width: 250;
+  width: 550;
   height: 350px;
   border-radius: 20px;
   overflow: hidden;
@@ -193,13 +196,13 @@ nav ul li a:hover {
   height: 100%;
   position: absolute;
   right: 0;
-  top: -100%;
+  top: -120%;
   background: rgba(105, 90, 205, 0.192);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   font-weight: bold;
   color: white;
-  padding: 15px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -228,6 +231,10 @@ nav ul li a:hover {
   font-size: 30px;
   font-weight: bold;
   color: white;
+}
+.fa-brands {
+  color: yellow;
+  font-size: 30px;
 }
 .card-body .card-sub-title {
   text-transform: capitalize;
@@ -314,18 +321,20 @@ legend {
   height: 50px;
   position: absolute;
   bottom: 50px;
-  left: 50%px;
+  left: 50;
   transform: translate(25%, 0%);
+  cursor: pointer;
 }
 
 .submit {
   color: white;
   font-weight: bolder;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   border: 2px solid var(--secondaryColor);
   width: 150px;
   background: transparent;
   padding: 10px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -350,9 +359,8 @@ legend {
     bottom: 40px;
     width: 20px;
   }
-  .footer-distributed{
+  .footer-distributed {
     margin-top: 50px;
-
   }
 }
 
@@ -407,7 +415,6 @@ legend {
   color: inherit;
 }
 
-
 .footer-distributed .footer-company-name {
   color: var(--secondaryColor);
   font-size: 14px;
@@ -434,9 +441,9 @@ legend {
   vertical-align: middle;
   cursor: pointer;
 }
-.footer-distributed .footer-center i:hover{
+.footer-distributed .footer-center i:hover {
   color: var(--mainColor);
-} 
+}
 
 .footer-distributed .footer-center i.fa-envelope {
   font-size: 17px;
@@ -463,8 +470,6 @@ legend {
   text-decoration: none;
 }
 
-
-
 /* Footer Right */
 
 .footer-distributed .footer-right {
@@ -489,7 +494,6 @@ legend {
 
 .footer-distributed .footer-icons {
   margin-top: 25px;
-  
 }
 
 .footer-distributed .footer-icons a {
@@ -508,9 +512,9 @@ legend {
   margin-right: 3px;
   margin-bottom: 5px;
   color: var(--secondaryColor);
-  background-color:transparent;
+  background-color: transparent;
 }
-.footer-distributed .footer-icons a:hover{
+.footer-distributed .footer-icons a:hover {
   color: var(--mainColor);
 }
 
